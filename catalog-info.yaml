@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: simple-test-2
+  description: A Test Document for Demo Purposes named simple-test-2
+  annotations:
+    github.com/project-slug: jk7testorg/simple-test-2
+    backstage.io/techdocs-ref: dir:.
+    jenkins.io/job-full-name: jk7test/simple-test-2/main
+    argocd/app-name: simple-test-2
+    # argocd/app-selector: app.kubernetes.io/instance=simple-test-2
+    argocd/instance-name: default
+    backstage.io/kubernetes-id: simple-test-2
+
+spec:
+  type: service
+  owner: development
+
+  lifecycle: experimental
