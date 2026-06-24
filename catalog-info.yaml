@@ -14,6 +14,6 @@ metadata:
 
 spec:
   type: service
-  owner: Madryx
+  owner: user:default/madryx
 
   lifecycle: experimental
